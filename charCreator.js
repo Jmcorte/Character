@@ -2,6 +2,8 @@ const readLine = require('readline-sync');
 
 let diceRolled = [];
 let eyeColor = ['blue','green','brown',];
+let hairColor =['black','brown','blonde','white'];
+let national=['American',]
 let character1 = {
     //empty for now
 };
@@ -42,6 +44,7 @@ function pickRandomChoice(choices) {
 function createChar(list, character){
     character.name = readLine.question("Enter Character Name: ");
     character.eyeColor = pickRandomChoice(eyeColor);
+    character.hairColor= pickRandomChoice(hairColor);
     console.log('Rolling Strength')
     character.strength= rollStat(diceRolled);
     console.log('Rolling Dexterity')
@@ -61,6 +64,7 @@ function createChar(list, character){
 function displayChar(char){
     console.log(`Name: ${char.name}`);
     console.log(`Eye Color: ${char.eyeColor}`);
+    console.log(`Hair Color: ${char.hairColor}`);
     console.log(`STR: ${char.strength}`);
     console.log(`DEX: ${char.dexterity}`);
     console.log(`CON: ${char.constitution}`);
