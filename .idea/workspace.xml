@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2c53c7f-36ed-4a85-84d3-376a4b213627" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/charCreator.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -130,7 +129,7 @@
       <workItem from="1681849370543" duration="979000" />
       <workItem from="1681850372542" duration="2406000" />
       <workItem from="1681935978356" duration="3129000" />
-      <workItem from="1682022331720" duration="2739000" />
+      <workItem from="1682022331720" duration="2987000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1681852781432</created>
@@ -153,14 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681939124520</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated char creator">
+      <created>1682025097497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682025097497</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32270000" />
+    <option name="totallyTimeSpent" value="32518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19020021" />
