@@ -1,4 +1,5 @@
-const readLine= require('readline-sync');
-let menu=[`Chicken Sandwich 3$:`,'Beef Sandwich 2$: ','Tofu Sandwich 1.']
-let bevs = ['Pepsi 1$','Squirt 1.25$','Coca Cola 1$',];
-let fries =['Small','Medium','Large','Xtra Large'];
+const readLine = ("readLine-sync");
+let menu =['Beef sandwich 2.50$:','Chicken sandwich 3$:','Tofu sandwich 1$:'];
+console.log(`${menu}`)
+let Bev =['Pepsi 1$:','Squirt 3$:','Coca Cola 1$:'];
+console.log(`${menu}`)
