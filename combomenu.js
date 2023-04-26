@@ -1,5 +1,33 @@
-const readLine = ("readLine-sync");
-let menu =['Beef sandwich 2.50$:','Chicken sandwich 3$:','Tofu sandwich 1$:'];
-console.log(`${menu}`)
-let Bev =['Pepsi 1$:','Squirt 3$:','Coca Cola 1$:'];
-console.log(`${menu}`)
+const readline = require("readline-sync");
+
+let menu = [
+    'Fishburger: $2.50',
+    'Cheeseburger: $1.50',
+    'Hamburger: $1.00',
+    'ChickenSandwich: $2.00'
+];
+console.log(`${menu}`);
+
+let beverage = [
+    'Pepsi',
+    'Sprite',
+    'DrPepper',
+    'Squirt',
+    'Water'
+];
+console.log(`${beverage}`);
+
+let beverageSizes = [
+    'small: $1.00',
+    'medium: $2.50',
+    'large: $3.25'
+];
+console.log(`${beverageSizes}`);
+
+let answer1 = readline.question("What type of sandwich or burger would you like? \n Your Answer: ");
+let answer2 = readline.question("Would you like a beverage? \n Your Answer: ");
+
+if(answer2 == "yes"){
+    let answer3 = readline.question("What beverage size would you like? \n Your Answer: ")
+}
+ 
