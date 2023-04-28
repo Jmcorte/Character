@@ -30,4 +30,6 @@ let answer2 = readline.question("Would you like a beverage? \n Your Answer: ");
 if(answer2 == "yes"){
     let answer3 = readline.question("What beverage size would you like? \n Your Answer: ")
 }
+let answer4 = readline.question("What size would you like? \n Your answer:");
+
  
